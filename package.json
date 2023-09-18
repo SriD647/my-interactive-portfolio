@@ -1,0 +1,39 @@
+{
+  "name": "my-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@heroicons/react": "^2.0.18",
+    "@mdi/js": "^7.2.96",
+    "@mui/material": "^5.14.9",
+    "@mui/system": "^5.14.9",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-scroll": "^1.8.9",
+    "react-type-animation": "^3.1.0",
+    "typewriter-effect": "^2.19.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}
