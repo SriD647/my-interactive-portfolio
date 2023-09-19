@@ -1,3 +1,4 @@
+// Technologies //
 import JavaScript from '../assets/icons/javascript.png';
 import HTML from '../assets/icons/html.png';
 import CSS from '../assets/icons/css.png';
@@ -15,9 +16,16 @@ import SSH from '../assets/icons/ssh.png';
 import Mongoose from '../assets/icons/mongoose.png';
 import JWT from '../assets/icons/jsonweb.png';
 import VsCode from '../assets/icons/vscode.png';
-import Apple from '../assets/icons/apple.png'
-import Windows from '../assets/icons/windows.png'
+import Apple from '../assets/icons/apple.png';
+import Windows from '../assets/icons/windows.png';
 
+// Interpersonal //
+import Adaptibility from '../assets/icons/adaptibility.png';
+import TeamWork from '../assets/icons/teamwork.png'
+import Communication from '../assets/icons/communication.png'
+import ProblemSolving from '../assets/icons/problemsolving.jpeg'
+import EI from '../assets/icons/EI.png'
+import CM from '../assets/icons/cm.jpeg'
 
 const personalDetails = {
     name: "Sri Rao",
@@ -108,4 +116,31 @@ const Technologies = [
     }
 ];
 
-export { personalDetails, Technologies };
+const Interpersonal = [
+    {
+        name: 'Teamwork',
+        icon: TeamWork
+    },
+    {
+        name: "Communication",
+        icon: Communication
+    },
+    {
+        name: 'Problem solving',
+        icon: ProblemSolving
+    },
+    {
+        name: 'Emotional Intelligence',
+        icon: EI
+    },
+    {
+        name: 'Adaptibility',
+        icon:  Adaptibility
+    },
+    {
+        name: 'Conflict management',
+        icon:  CM
+    }
+]  
+
+export { personalDetails, Technologies, Interpersonal };

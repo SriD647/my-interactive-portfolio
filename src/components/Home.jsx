@@ -5,16 +5,25 @@ import Animation from './animation';
 import { personalDetails } from './Details';
 import github from '../assets/github.png';
 import linkedin from '../assets/linkedin.png';
+import { loadFull } from 'tsparticles';
+import  { Animation2 } from "./Animation2.jsx";
+import Particles from "react-tsparticles";
 
 const Home = () => {
+
+  const handleInit = async (main) => {
+    await loadFull(main)
+  }
+
   return (
-    <div className='md:px-10  px-7 my-10 bg-[#1a1a29] mt-15' id='home'>
+    <div className='md:px-10  px-7 my-10 bg-[#1a1a29]' id='home'>
+      <Particles id="particles" options={Animation2} init={handleInit}/>
       <div>
         <div className='flex flex-col md:flex-row items-center justify-between w-full'>
 
           <div className='text-white relative'>
-            <h1 className='font-semibold md:text-5xl my-4 text-3xl mb-10'>Hi, I'm Sri Rao!</h1>
-            <h2 className='font-semibold md:text-5xl my-4 text-3xl mb-7'>
+            <h1 className='font-semibold md:text-5xl my-4 text-3xl mb-10 mt-12'>Hi, I'm Sri Rao!</h1>
+            <h2 className='font-semibold md:text-3xl my-4 text-3xl mb-7'>
               I'm a
                 <TypeAnimation
                   sequence={[
@@ -22,17 +31,17 @@ const Home = () => {
                     1000,
                     ' Humanitarian',
                     1000,
-                    ' Gym Goer',
+                    ' Fitness Enthusiast',
                     1000,
                   ]}
                   wrapper="span"
                   style={{ background: '-webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}
                   speed={1}
-                  className='font-semibold md:text-5xl my-4 text-3xl mb-4'
+                  className='font-semibold md:text-4xl my-4 text-4xl mb-4'
                   repeat={Infinity}
                 />
             </h2>
-            <h3 className='font-semibold md:w-96 text-2xl mb-4'>I am a passionate software professional based in Toronto, Canada. I am open to opportunities abroad. </h3>
+            <h3 className='font-semibold md:w-96 text-2xl mb-2'>I am a passionate software professional based in Toronto, Canada. I am open to remote work and opportunities abroad. </h3>
             <a href={personalDetails.github} target="_blank" rel="noopener noreferrer">
             <button className='mt-5 rounded-full transition duration-300 ease-in-out transform hover:scale-110 hover:filter hover:brightness-125 hover:bg-purple-900' style={{ transform: 'translateY(-10%)' }}>
               <img
@@ -57,18 +66,18 @@ const Home = () => {
 
           </div>
            
-          <div className='order-first md:order-last relative' style={{transform: 'translateX(-10%), translateY(80%)'}}>
+          <div className='order-first md:order-last relative mt-5' style={{transform: 'translateX(-10%), translateY(80%)'}}>
           
             <img
               src={img3}
               alt=""
               className="rounded-full relative z-10"
-              style={{ width: '300px', height: '300px', transform: 'translateX(-50%) translateY(-10%)'}}
+              style={{ width: '350px', height: '350px', transform: 'translateX(-60%) translateY(-2%)'}}
               
             />
-            <div style={{ marginTop: '-110%', transform: 'translateX(-80%) translateY(10%)'}} >
+            {/* <div style={{ marginTop: '-110%', transform: 'translateX(-80%) translateY(10%)'}} >
               <Animation/>
-            </div>
+            </div> */}
 
           </div>
         </div>
