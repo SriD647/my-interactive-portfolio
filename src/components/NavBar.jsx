@@ -10,14 +10,14 @@ const Header = () => {
   let Links = [
     { name: "About me", link: "about" },
     { name: "Skills", link: "skills" },
-    { name: "Experience", link: "experience" },
+    { name: "Resume", link: "resume" },
     { name: "Projects", link: "projects" },
     { name: "Contact", link: "contact" },
   ];
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="w-full my-8 max-w-7xl mb-12 mt-2">
+    <div className="w-full my-8 max-w-7xl mb-12 bg-[#1a1a29] mt-2">
       <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">

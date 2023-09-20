@@ -35,7 +35,8 @@ const personalDetails = {
     linkedin: "https://www.linkedin.com/in/sridatt-r",
     youtube: "https://www.youtube.com/channel/UCdAY1C_SNmm3UQTp_vzyuKg",
     gA: "https://generalassemb.ly/education/software-engineering-immersive",
-    aol: "https://www.artofliving.org/ca-en/about-us" 
+    aol: "https://www.artofliving.org/ca-en/about-us",
+    resumeLink: "https://docs.google.com/document/d/1MsyI1FjhpyfcHZoTDuCWIxfypctQy8N6aAQCsaFVRuo/edit"
     
 }
 
