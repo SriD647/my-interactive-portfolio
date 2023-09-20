@@ -63,8 +63,8 @@ const Skills = () => {
             </div>
 
             <div style={centerButtonDivStyle}>
-                <a href={personalDetails.resumeLink} target="_blank" rel="noopener noreferrer" id="resume">
-                    <button className="transform hover:scale-110" style={roundedButtonStyle}> LINK TO RESUME</button>
+                <a href={personalDetails.resumeLink} target="_blank" rel="noopener noreferrer" >
+                    <button className="transform hover:scale-110" style={roundedButtonStyle} id="resume"> LINK TO RESUME</button>
                 </a>
             </div>
         </div>

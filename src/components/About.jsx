@@ -46,7 +46,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="h-10 bg-[#181824] w-full mx-auto absolute left-0 hidden md:block"></div>
+      <div className="h-10 bg-[#181824] w-full mx-auto absolute left-0 hidden md:block" id="skills"></div>
     </div>
   );
 };

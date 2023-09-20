@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto" id='home'>
         {/* <Particles id="particles" options={Animation2} init={handleInit}/> */}
         <NavBar/>
         <Home  /> 
@@ -28,7 +28,7 @@ function App() {
         <Projects />
         <Contact />
         <Footer />
-      </div>
+        </div>
     </>
   );
 }
