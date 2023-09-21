@@ -49,6 +49,7 @@ const Contact = () => {
             <p className="text-white text-2xl pb-3">Thank you for your message</p>
           ) : (
             <form onSubmit={handleSubmit}>
+              <p className="text-white text-2xl pb-3">Contact me</p>
               <input type="text" name="name" placeholder="Name:" className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded mb-3 text-white" />
               <ValidationError prefix="Name" field="name" errors={state.errors} />
               <input type="email" name="email" placeholder="Email:" className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded mb-3 text-white" />
