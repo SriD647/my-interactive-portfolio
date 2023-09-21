@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",
+    "@formspree/react": "^2.5.1",
     "@heroicons/react": "^2.0.18",
     "@mdi/js": "^7.2.96",
     "@mui/material": "^5.14.9",
