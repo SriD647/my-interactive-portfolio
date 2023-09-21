@@ -1,14 +1,11 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import { personalDetails} from "./Details"
+import { personalDetails } from "./Details";
 import github from '../assets/github.png';
 import linkedin from '../assets/linkedin.png';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("meqbrlgv");
-  if (state.succeeded) {
-    return <p>Thank you for your message</p>;
-  }
 
   return (
     <div className="md:px-10 px-7 my-20 bg-[#1a1a29]">
@@ -46,7 +43,9 @@ const Contact = () => {
         {/* form */}
         <div className="md:w-1/2 w-auto h-auto pt-10 pb-5">
           {state.succeeded ? (
-            <p className="text-white text-2xl pb-3">Thank you for your message</p>
+            <>
+              <p className="text-white text-1xl pb-3">Thank you for your message. Please reload the page to send another.</p>
+            </>
           ) : (
             <form onSubmit={handleSubmit}>
               <p className="text-white text-2xl pb-3">Contact me</p>
