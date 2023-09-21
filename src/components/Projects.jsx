@@ -14,7 +14,7 @@ const Projects = () => {
   const projectCardStyle = {
     width: "400px",
     height: "450px",
-    background: '#171721',
+    background: '#1e1e2a',
     boxShadow: "0px 0px 5px rgba(0, 0, 0, 0.9)"
   };
 
@@ -29,7 +29,7 @@ const Projects = () => {
         {ProjectsDeployed.map((project, index) => (
           <div
             key={index}
-            className="text-center rounded-lg mt-2 pt-4 mr-50 shadow-lg hover:scale-105"
+            className="text-center rounded-lg mt-2 pt-4 mr-50 shadow-lg"
             style={{
               ...projectCardStyle,
               maxHeight: "450px",
@@ -63,7 +63,7 @@ const Projects = () => {
                 />
               ))}
             </div>
-            <p className="text-purple-200 text-left text-sm px-2 mt-2">
+            <p className="text-purple-100 text-left text-sm px-2 mt-2">
               {project.description}
             </p>
             <div className="flex justify-center mt-4">
