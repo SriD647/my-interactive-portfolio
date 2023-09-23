@@ -50,7 +50,7 @@ const Projects = () => {
                 src={project.image}
                 alt={project.name}
                 className="w-auto h-40 mx-auto rounded transform group-hover:scale-105 transition duration-300"
-                style={{ border: "2px solid black", width: "85%" }} // Specify the border size and style here
+                style={{ border: "2px solid black", width: "85%" }} 
               />
             </a>
             <div className="flex justify-center pt-4 pb-2">
@@ -60,6 +60,7 @@ const Projects = () => {
                   src={Technologies.find(tech0 => tech0.name === tech).icon}
                   alt={tech.name}
                   className="w-10 h-10 mr-5"
+                  style= {{borderRadius: '20%'}}
                 />
               ))}
             </div>

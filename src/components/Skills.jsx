@@ -3,10 +3,6 @@ import { personalDetails, Technologies, Interpersonal } from './Details';
 
 const Skills = () => {
     const gradientStyle = {
-        background: '-webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%)',
-        color: 'white',
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
         fontSize: '0.7rem',
     };
 
@@ -53,9 +49,9 @@ const Skills = () => {
                         {Technologies.map((technology) => (
                             <div className="p-4 text-center transform hover:scale-110 rounded-lg border border-primary shadow-lg" key={technology.id}>
                                 <div className="mb-2">
-                                    <img src={technology.icon} className="w-10 h-10 mb-2 mx-auto" alt={technology.name} />
+                                    <img src={technology.icon} className="w-10 h-10 mb-2 mx-auto" alt={technology.name} style={{ borderRadius: '20%' }} />
                                 </div>
-                                <p className="text-primary font-semibold" style={{ ...gradientStyle}}>{technology.name}</p>
+                                <p className="font-semibol text-purple-400" style={{ ...gradientStyle}}>{technology.name}</p>
 
                             </div>
                         ))}
@@ -68,9 +64,9 @@ const Skills = () => {
                         {Interpersonal.map((personal) => (
                             <div className="p-4 text-center transform hover:scale-110 rounded-lg border border-primary shadow-lg" key={personal.id}>
                                 <div className="mb-2">
-                                    <img src={personal.icon} className="w-10 h-10 mb-2 mx-auto" alt={personal.name} />
+                                    <img src={personal.icon} className="w-12 h-11 mb-2 mx-auto" alt={personal.name} style={{ borderRadius: '20%' }} />
                                 </div>
-                                <p className="text-primary font-semibold" style={gradientStyle} id="resume">{personal.name}</p>
+                                <p className="text-primary text-purple-400" style={gradientStyle} id="resume">{personal.name}</p>
                             </div>
                         ))}
                     </div>
