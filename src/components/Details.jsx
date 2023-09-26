@@ -190,7 +190,7 @@ const ProjectsDeployed = [
     technologies: ["React", "SASS"],
     description: "Search-A-Film leverages the OMDb web API to deliver key details on movies and provides a live stream link from two public platforms. With its captivating design, quick data retrieval, and robust error handling it's the ultimate entertainment companion",
     gitLink: "https://github.com/SriD647/REACT-MOVIE-API",
-    liveLink: "https://grand-mandazi-ecb05d.netlify.app/"
+    liveLink: "https://searchfilm.netlify.app/"
 
    },
    {
