@@ -44,7 +44,7 @@ const personalDetails = {
     youtube: "https://www.youtube.com/channel/UCdAY1C_SNmm3UQTp_vzyuKg",
     gA: "https://generalassemb.ly/education/software-engineering-immersive",
     aol: "https://www.artofliving.org/ca-en/about-us",
-    resumeLink: "https://coral-leena-61.tiiny.site/"
+    resumeLink: "https://red-ora-89.tiiny.site"
     
 }
 
